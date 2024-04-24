@@ -11,13 +11,15 @@
 total_latency = 0
 total_bytes = 0
 count = 0
+
 #Read the monitor
 with open('interface_monitor_output.txt', 'r') as file:
     lines= file.readlines()
+
+#Iterate
 for line in lines:
         timestamp, txn_type, data = line.split()
         timestamp = int(timestamp)
-#Iterate
 if txn_type == 'Rd':
  for next_line in lines:
  next_txn_type=='Data':
