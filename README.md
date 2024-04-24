@@ -32,7 +32,7 @@ This has the detailed information on using Pythia
 
 # Run the  DDPG algorithm code
 It invlolves adding all the libaries, setting up the RL frameowrk using Pythia. 
-Then the algorithm paramters are initialized and functions are called. Training is monitored and evaluated and compared to see if they are close to the benchmark ahter which iterations lead to optimization.Experiment with different configurations, such as reward functions and state representations, to optimize the agent's behavior further.
+Then the algorithm paramters are initialized and functions are called. Training is monitored and evaluated and compared to see if they are close to the benchmark after which iterations lead to optimization.Experiment with different configurations, such as reward functions and state representations, to optimize the agent's behavior further.
 
 # Other details
 Make sure that the environment simulates workload and traffic patterns, buffer sizes and arbiters accurately. Accurate buffer sizes, arbiter designs are necessary for area optimization.Efficient routing algorithms are also necessary to ensure optimum data paths.
