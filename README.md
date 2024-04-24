@@ -19,16 +19,16 @@ Matplotlib
 # Pythia framework
 Pythia, which formulates the prefetcher as a reinforcement learning agent. For every demand request, Pythia observes multiple different types of program context information to make a prefetch decision. For every prefetch decision, Pythia receives a numerical reward that evaluates prefetch quality under the current memory bandwidth usage. Pythia uses this reward to reinforce the correlation between program context information and prefetch decision to generate highly accurate, timely, and system-aware prefetch requests in the future.
 Pythia is implemented in ChampSim simulator.
-Pythia can be used for training RL agents using DDPG algorith, and evaluating the performance.
+Pythia can be used for training RL agents using DDPG algorithm, and evaluating the performance.
 
 This has the detailed information on using Pythia
 
-@inproceedings{bera2021,
+[@inproceedings{bera2021,
   author = {Bera, Rahul and Kanellopoulos, Konstantinos and Nori, Anant V. and Shahroodi, Taha and Subramoney, Sreenivas and Mutlu, Onur},
   title = {{Pythia: A Customizable Hardware Prefetching Framework Using Online Reinforcement Learning}},
   booktitle = {Proceedings of the 54th Annual IEEE/ACM International Symposium on Microarchitecture},
   year = {2021}
-}
+}]
 
 # Run the  DDPG algorithm code
 It invlolves adding all the libaries, setting up the RL frameowrk using Pythia. 
