@@ -9,11 +9,11 @@ The algorithm uses two neural networks, one for the actor and one for the critic
 
 # Prerequisites:
 Before setting up the Pythia environment, ensure you have the following prerequisites installed:
-Python (version 3.6 or higher)
-TensorFlow (version 2.0 or higher)
-PyTorch (version 1.6 or higher)
-NumPy
-Pandas
+Python (version 3.6 or higher),
+TensorFlow (version 2.0 or higher),
+PyTorch (version 1.6 or higher),
+NumPy,
+Pandas,
 Matplotlib
 
 # Pythia framework
